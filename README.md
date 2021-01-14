@@ -1,3 +1,12 @@
+## To Install in Kali 2020
+ * First install **python2-dbg** *(or python2.7-dbg)*, then open (python crypto)[https://http.kali.org/kali/pool/main/p/python-crypto/] in browser, download the latest version of **python-crypto** & **python-crypto-dbg** *(in my case, they are python-crypto-dbg_2.6.1-12+b1_amd64.deb & python-crypto_2.6.1-12+b1_amd64.deb)*
+
+ * Change directory to the Downloads directory & use dpkg to install those packages
+```shell
+cd _DOWNLOAD_DIRECTORY_
+sudo dpkg -i python-crypto-dbg_2.6.1-12+b1_amd64.deb python-crypto_2.6.1-12+b1_amd64.deb
+```
+
 # Information
 This repo is for my modifications to the original 'creddump' program available
 at: 
