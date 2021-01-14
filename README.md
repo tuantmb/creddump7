@@ -1,5 +1,9 @@
 ## To Install in Kali Linux 2020+ version
- * First install **python2-dbg** *(or python2.7-dbg)*, then open (python crypto)[https://http.kali.org/kali/pool/main/p/python-crypto/] in browser, download the latest version of **python-crypto** & **python-crypto-dbg** *(in my case, they are python-crypto-dbg_2.6.1-12+b1_amd64.deb & python-crypto_2.6.1-12+b1_amd64.deb)*
+ * First install **python2-dbg** *(or python2.7-dbg)*, then open [python crypto](https://http.kali.org/kali/pool/main/p/python-crypto/) in browser, download the latest version of **python-crypto** & **python-crypto-dbg** *(in my case, they are python-crypto-dbg_2.6.1-12+b1_amd64.deb & python-crypto_2.6.1-12+b1_amd64.deb)*
+> You can change download url by others if the link is not worked, just search the name of the package to get other locations
+```
+google-search: "python-crypto_2.6.1" "deb"
+```
 
  * Change directory to the Downloads directory & use dpkg to install those packages
 ```shell
